@@ -156,9 +156,9 @@ position: relative;
 }
 
 .social {
-position: absolute;
-top: 12px;
-right: 0;
+    position: absolute;
+    top: 12px;
+    right: 0;
 }
 
 .social li {
