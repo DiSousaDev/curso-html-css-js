@@ -6,6 +6,47 @@ body{
     width: 940px;
 }
 
+.container{
+    margin: 0 auto;
+    width: 970px;
+    position: relative;
+}
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: right;
+    width: 140px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+
 #titleSobre {
     background-image: url(../img/sobre-background.jpg);
     color: black;
@@ -15,14 +56,35 @@ body{
 h1  {
     color: black;
     padding: 10px;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
 }
 
 h2 {
     border-bottom: 2px solid #333333;
+    display: block;
+    font-size: 1.5em;
     margin-top: 30px;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 
-p {
+.paragrafo {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
     padding: 0 45px;
     text-indent: 15px;
 }
@@ -51,6 +113,19 @@ figcaption{
     margin-top: 10px;
 }
 
+.diflist {
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+li {
+    display: list-item;
+}
+
 .rodape {
     color: #777;
     margin: 30px 0;
@@ -63,43 +138,7 @@ figcaption{
     width: 94px;
 }
 
-.container{
-    margin: 0 auto;
-    width: 970px;
-    position: relative;
-}
 
-.menu-opcoes {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
 
-.menu-opcoes ul {
-    font-size: 15px;
-}
 
-.menu-opcoes ul li{
-    display: inline;
-    margin-left: 20px;
-}
 
-.menu-opcoes a {
-    color: #003366;
-}
-
-.sacola {
-    background-image: url(../img/sacola.png);
-    background-repeat: no-repeat;
-    background-position: top right;
-    font-size: 14px;
-
-    padding-right: 35px;
-    padding-top: 8px;
-    text-align: right;
-    width: 140px;
-
-    position: absolute;
-    top: 0;
-    right: 0;
-}
