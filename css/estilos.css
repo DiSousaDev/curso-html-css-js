@@ -3,6 +3,13 @@ body{
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 }
 
+.menu-opcoes a:hover {
+    color: #007DC6;
+}
+    .menu-opcoes a:active {
+    color: #867DC6;
+}
+
 .sacola {
     background-image: url(../img/sacola.png);
     background-repeat: no-repeat;
@@ -54,6 +61,23 @@ body{
     margin: 0 auto;
     width: 970px;
     position: relative;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: #DCDCDC;
+}
+
+.menu-departamentos li li a:before {
+    content: '\272A';
+    padding-right: 3px;
 }
 
 .busca,
@@ -132,6 +156,12 @@ body{
     text-transform: uppercase;
 
     margin-bottom: 10px;
+}
+
+.painel h2:before {
+    content: '\2756';
+    padding-right: 5px;
+    opacity: 0.4;
 }
 
 .painel a{
