@@ -1,42 +1,9 @@
 body{
     color: #333333;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
-}
-
-strong {
-    font-weight: bold;
-}
-
-h2 {
-    border-bottom: 2px solid #333333;
-    display: block;
-    font-size: 1.5em;
-    margin-top: 30px;
-    margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-
-.destaque {
-    color: black;
-    padding: 10px;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-}
-
-.paragrafo {
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0 45px;
-    text-indent: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
 }
 
 .container{
@@ -80,11 +47,46 @@ h2 {
     color: #003366;
 }
 
-.titleSobre {
-    margin-top: 10px;
+#titleSobre {
     background-image: url(../img/sobre-background.jpg);
     color: black;
     padding: 10px;
+}
+
+h1  {
+    color: black;
+    padding: 10px;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h2 {
+    border-bottom: 2px solid #333333;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.paragrafo {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 45px;
+    text-indent: 15px;
 }
 
 figure {
@@ -114,7 +116,7 @@ figcaption{
 .diflist {
     list-style-type: disc;
     margin-top: 1em;
-    margin-bottom: 20px;
+    margin-bottom: 1 em;
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
@@ -124,21 +126,19 @@ li {
     display: list-item;
 }
 
-footer {
-    background-image: url(../img/fundo-rodape.png);
-    clear: both;
-    padding: 20px 0;
+.rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
 }
 
-.social a {
-/* tamanho da imagem */
-height: 32px;
-width: 32px;
-/* image replacement */
-display: block;
-text-indent: -9999px;
+.rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
 }
 
+<<<<<<< HEAD
 .social a[href*="facebook.com"] {
 background-image: url(../img/facebook.png);
 }
@@ -165,6 +165,8 @@ position: relative;
 float: left;
 margin-left: 25px;
 }
+=======
+>>>>>>> parent of 3c8a448... ajustes semanticos e rodape pagina sobre
 
 
 
